@@ -34,5 +34,12 @@ public class TestCircle
         // You cannot do the following because setRadius() returns void,
         // which cannot be printed.
         // Console.WriteLine(c4.setRadius(4.0));
+        Circle c5 = new Circle(5.0);
+        Console.WriteLine(c1.ToString());   // explicit call
+
+        Circle c6 = new Circle(1.2);
+        Console.WriteLine(c2.ToString());  // explicit call
+        Console.WriteLine(c2);             // println() calls toString() implicitly, same as above
+        Console.WriteLine("Operator '+' invokes toString() too: " + c2);  // '+' invokes toString() too
     }
 } 
