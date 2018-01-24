@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CircleClass.cs" />
+    <Compile Include="TheRectangleClass.cs" />
     <Compile Include="TestCircle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

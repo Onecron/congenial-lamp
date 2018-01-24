@@ -41,5 +41,8 @@ public class TestCircle
         Console.WriteLine(c2.ToString());  // explicit call
         Console.WriteLine(c2);             // println() calls toString() implicitly, same as above
         Console.WriteLine("Operator '+' invokes toString() too: " + c2);  // '+' invokes toString() too
+
+        TheRectangleClass r1 = new TheRectangleClass();
+        Console.WriteLine(r1.ToString());
     }
 } 
