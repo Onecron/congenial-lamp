@@ -11,8 +11,8 @@ public class TheRectangleClass
 
     public TheRectangleClass()
     {
-        length = 1.0f;
-        width = 1.0f;
+        length = 3.0f;
+        width = 2.0f;
     }
     public TheRectangleClass(float length,float width)
     {
@@ -33,7 +33,7 @@ public class TheRectangleClass
     }
     public void SetWidth(float newwidth)
     {
-        this.width = newwidth;
+        width = newwidth;
     }
     public double getArea()
     {

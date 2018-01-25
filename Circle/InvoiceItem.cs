@@ -22,8 +22,6 @@ public class InvoiceItem
     {
         id = "A";
         desc = "Book";
-        qty = 1;
-        unitPrice = 10.5;
     }
     public String getID()
     {
@@ -56,6 +54,6 @@ public class InvoiceItem
     }
     public override String ToString()
     {
-        return " InvoiceItem[id= " + id + " desc= " + desc + " qty= " + qty + " unitprice= " + unitPrice + "]";
+        return "InvoiceItem[id= " + id + " desc= " + desc + " qty= " + qty + " unitprice= " + unitPrice + "]";
     }
 }

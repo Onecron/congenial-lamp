@@ -24,7 +24,6 @@ public class EmployeeClass
         id = 1;
         firstName = "Ryan";
         lastName = "Gosling";
-        salary = 5000;
         
     }
 

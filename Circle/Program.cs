@@ -41,14 +41,29 @@ public class TestCircle
         Console.WriteLine(c2.ToString());  // explicit call
         Console.WriteLine(c2);             // println() calls toString() implicitly, same as above
         Console.WriteLine("Operator '+' invokes toString() too: " + c2);  // '+' invokes toString() too
+        Console.WriteLine();
 
         TheRectangleClass r1 = new TheRectangleClass();
-        Console.WriteLine(r1.ToString());
+        r1.SetWidth(4.0f);
+        Console.WriteLine(r1.ToString() + "Area = " + r1.getArea());
+
+        Console.WriteLine();
 
         EmployeeClass e1 = new EmployeeClass();
+        e1.setSalary(5000);
         Console.WriteLine(e1.ToString());
+        Console.WriteLine("Annual salary " + e1.getAnnualSalary());
+
+        Console.WriteLine();
 
         InvoiceItem i1 = new InvoiceItem();
+        i1.setQty(33);
+        i1.setUnitPrice(440);
+        Console.WriteLine("ID is = " + i1.getID() + " Desc is = " + i1.getDesc());
+        Console.WriteLine("Total is = " + i1.getTotal());
         Console.WriteLine(i1.ToString());
+
+        Console.WriteLine();
+
     }
 } 
