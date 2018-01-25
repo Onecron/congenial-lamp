@@ -44,5 +44,9 @@ public class TestCircle
 
         TheRectangleClass r1 = new TheRectangleClass();
         Console.WriteLine(r1.ToString());
+
+        EmployeeClass e1 = new EmployeeClass();
+        Console.WriteLine(e1.ToString());
+
     }
 } 
