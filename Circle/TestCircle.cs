@@ -48,5 +48,7 @@ public class TestCircle
         EmployeeClass e1 = new EmployeeClass();
         Console.WriteLine(e1.ToString());
 
+        InvoiceItem i1 = new InvoiceItem();
+        Console.WriteLine(i1.ToString());
     }
 } 

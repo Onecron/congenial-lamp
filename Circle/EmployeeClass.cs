@@ -21,10 +21,10 @@ public class EmployeeClass
     }
     public EmployeeClass()
     {
-        this.id = 1;
-        this.firstName = "Ryan";
-        this.lastName = "Gosling";
-        this.salary = 5000;
+        id = 1;
+        firstName = "Ryan";
+        lastName = "Gosling";
+        salary = 5000;
         
     }
 
@@ -48,9 +48,9 @@ public class EmployeeClass
     {
         return this.salary;
     }
-    public void setSalary(int salary)
+    public void setSalary(int newsalary)
     {
-        this.salary = salary;
+        this.salary = newsalary;
     }
     public int getAnnualSalary()
     {
