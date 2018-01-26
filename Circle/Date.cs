@@ -51,6 +51,6 @@ public class Date
     }
     public new String ToString()
     {
-        return "Date[dd" + day +"/mm" + month + "/yyyy" + year + "]";
+        return "Date[dd" + day +"/mm" + month + "/yyyy" + year + "]"; // ei toimi kunnolla
     }
 }

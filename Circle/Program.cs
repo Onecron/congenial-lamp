@@ -73,7 +73,15 @@ public class TestCircle
         Console.WriteLine();
 
         Date d1 = new Date();
-        Console.WriteLine("Day is = " + d1.getDay());
+        Console.WriteLine("Day is = " + d1.getDay()); // Work in progress
         Console.WriteLine(d1.ToString());
+
+        Console.WriteLine();
+
+        Time t1 = new Time();
+        Console.WriteLine("hour is =" + t1.gethour()); // ei toimi
+        Console.WriteLine(t1.ToString());
+
+
     }
 } 
