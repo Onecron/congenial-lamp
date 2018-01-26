@@ -65,5 +65,15 @@ public class TestCircle
 
         Console.WriteLine();
 
+        Account a1 = new Account();
+        Console.WriteLine("ID is = " + a1.getID() + " Name is = " + a1.getName());
+        Console.WriteLine("Balance is = " + a1.getBalance());
+        Console.WriteLine(a1.ToString());
+
+        Console.WriteLine();
+
+        Date d1 = new Date();
+        Console.WriteLine("Day is = " + d1.getDay());
+        Console.WriteLine(d1.ToString());
     }
 } 

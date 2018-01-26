@@ -18,6 +18,11 @@ public class Account
     public Account(String id, String name, int balance)
     {
     }
+    public Account()
+    {
+        id = "A";
+        name = "Ryan";
+    }
     public String getID()
     {
         return id;
@@ -46,6 +51,20 @@ public class Account
         }
         return balance;
     }
-    public int transferTo()
-    
+    public int transferTo(Account another, int amount)
+    {
+        if (amount <= balance)
+        {
+            // Account.another = another + amount; 
+        }
+        else
+        {
+            Console.WriteLine("Amount exceeded balance");
+        }
+        return balance;
+    }
+    public override String ToString()
+    {
+        return "Account[id= " + id + " name= " + name + " balance= " + balance + "]";
+    }
 }
