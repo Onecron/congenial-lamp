@@ -39,7 +39,7 @@ public class TheRectangleClass
     {
         return this.length * this.width;
     }
-    public override String ToString()
+    public new String ToString()
     {
         return "Rectangle[width=" + width + " length=" + length + "]";
     }
